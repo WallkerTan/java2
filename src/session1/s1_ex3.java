@@ -1,4 +1,4 @@
-package sessioin1;
+package src.session1;
 
 public class s1_ex3 {
     static class User {

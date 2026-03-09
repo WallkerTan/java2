@@ -1,4 +1,4 @@
-package sessioin1;
+package src.session1;
 
 import java.io.IOException;
 
