@@ -24,6 +24,7 @@ public class s9_app {
             System.out.println(e.disPlayInfo());
         });
     }
+    
     public static void outdig(List<Entity> Elist){
         List<Entity> newl = Elist.stream().filter(e->e instanceof DigitalProduct).toList();
         newl.stream().forEach(e->{
@@ -91,7 +92,6 @@ public class s9_app {
         System.out.println("san pham sau khi sua");
         System.out.println(e.disPlayInfo());
     }
-
     public static void main(String[] args) {
         boolean loop = true;
         Scanner sc = new Scanner(System.in);
